@@ -12,6 +12,7 @@ public class Card : MonoBehaviour {
 	Rectangle rect;
 	void Start () {
 		rect = new Rectangle (width, height);
+		UpdateMesh (Vector3.zero);
 	}
 
 	public void UpdateMesh (Vector3 intrude) {
